@@ -13,6 +13,7 @@
 		CEF1639528BC42A80099D9E5 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1639428BC42A80099D9E5 /* Display.swift */; };
 		CEF1639728BC42B10099D9E5 /* SimpleDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1639628BC42B10099D9E5 /* SimpleDisplay.swift */; };
 		CEF1639928BC42B60099D9E5 /* CaptionDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1639828BC42B60099D9E5 /* CaptionDisplay.swift */; };
+		CEF163B028BC84470099D9E5 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF163AF28BC84470099D9E5 /* Document.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		CEF1639428BC42A80099D9E5 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
 		CEF1639628BC42B10099D9E5 /* SimpleDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDisplay.swift; sourceTree = "<group>"; };
 		CEF1639828BC42B60099D9E5 /* CaptionDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionDisplay.swift; sourceTree = "<group>"; };
+		CEF163AF28BC84470099D9E5 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		CEF1638E28BC422F0099D9E5 /* FeatureLayer */ = {
 			isa = PBXGroup;
 			children = (
+				CEF163AF28BC84470099D9E5 /* Document.swift */,
 				CEF1639028BC42910099D9E5 /* Draft.swift */,
 				CEF1639228BC429D0099D9E5 /* Publication.swift */,
 			);
@@ -156,6 +159,7 @@
 				CEF1639528BC42A80099D9E5 /* Display.swift in Sources */,
 				CEF1639928BC42B60099D9E5 /* CaptionDisplay.swift in Sources */,
 				CEF1639728BC42B10099D9E5 /* SimpleDisplay.swift in Sources */,
+				CEF163B028BC84470099D9E5 /* Document.swift in Sources */,
 				CEF1639128BC42910099D9E5 /* Draft.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

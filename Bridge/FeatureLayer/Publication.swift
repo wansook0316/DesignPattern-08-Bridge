@@ -36,4 +36,5 @@ internal class Publication: Draft {
 
         self.describePublicationInfo()
     }
+    
 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-internal class Draft {
+internal class Draft: Document {
 
     internal let title: String
     internal let author: String

@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+internal protocol Document {
+
+    func describe(display: Display)
+    
+}
