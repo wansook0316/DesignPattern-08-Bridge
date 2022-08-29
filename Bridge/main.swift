@@ -17,6 +17,11 @@ func main() {
 
     // 실질적인 구현은 Display가 하고 있음
     draft.print(display: simpleDisplay)
+
+    // 다른 방식으로 출력하고 싶다면 다르게 구현한 녀석을 넣어주면 됨
+    let captionDisplay = CaptionDisplay()
+
+    draft.print(display: captionDisplay)
 }
 
 main()
