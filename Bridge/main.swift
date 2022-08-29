@@ -16,12 +16,24 @@ func main() {
     let simpleDisplay = SimpleDisplay()
 
     // 실질적인 구현은 Display가 하고 있음
-    draft.print(display: simpleDisplay)
+    draft.describe(display: simpleDisplay)
 
     // 다른 방식으로 출력하고 싶다면 다르게 구현한 녀석을 넣어주면 됨
     let captionDisplay = CaptionDisplay()
 
-    draft.print(display: captionDisplay)
+    draft.describe(display: captionDisplay)
+
+
+    // Publication
+    let publication = Publication(title: "나도 책 쓸 수 있다",
+                                  author: "최완식",
+                                  contents: ["야", "너도", "책 쓸 수 있어"],
+                                  publisher: "동아출판",
+                                  cost: 39000)
+
+    // display 객체도 재활용이 가능하다.
+    publication.describe(display: captionDisplay)
+    
 }
 
 main()
