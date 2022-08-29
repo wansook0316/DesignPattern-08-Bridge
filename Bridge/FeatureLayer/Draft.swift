@@ -22,10 +22,10 @@ internal class Draft {
     }
 
     // 출력의 구현은 Display protocol을 구현한 쪽에서 담당함
-    internal func print(Display: display) {
-        display.title(self)
-        display.author(self)
-        display.contents(self)
+    internal func print(display: Display) {
+        display.title(draft: self)
+        display.author(draft: self)
+        display.contents(draft: self)
     }
 
 }
