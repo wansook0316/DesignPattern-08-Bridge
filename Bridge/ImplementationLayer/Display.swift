@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+internal protocol Display {
+
+    func title(draft: Draft)
+
+    func author(draft: Draft)
+
+    func contents(draft: Draft)
+
+}
